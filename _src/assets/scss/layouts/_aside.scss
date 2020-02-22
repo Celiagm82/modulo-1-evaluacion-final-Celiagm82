@@ -1,53 +1,56 @@
+.aside-page {
+    background-color: #eff9ff;
 
-
-.aside-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    text-align: center;
+    .aside-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        text-align: center;
     
 
-    .aside-title {
-        padding-bottom: 45px;
-        font-size: 24px;
-        text-align: center;
-        margin: 0;
-    }
-
-    .aside-item {
-        padding-bottom: 45px;
-        grid-column: span 1;
-        grid-row: span  1;
-        margin-left: 68px;
-        margin-right: 68px;
-
-        h3 {
-            font-size: $paragraphFont;
-            margin: 0;
-            line-height: 30px;
-        }
-
-        p {
-            font-size: $paragraphFont;
-            line-height: 30px;
-            margin: 0;
-        }
-    }
-
-    button {
-        width: 184px;
-        height: 45px;
-        border-radius: 22.5px;
-        background-color: #f26002;
-        margin-bottom: 60px;
-        margin-left: 68px;
-        margin-right: 68px;
-
-        a {
-            font-size: 20px;
-            color: white;
+        .aside-title {
+            padding-top: 30px;
+            padding-bottom: 45px;
+            font-size: 24px;
             text-align: center;
-            text-decoration: $linkDeco;
+            margin: 0;
+        }
+
+        .aside-item {
+            padding-bottom: 45px;
+            grid-column: span 1;
+            grid-row: span  1;
+            margin-left: 68px;
+            margin-right: 68px;
+
+            h3 {
+                font-size: $paragraphFont;
+                margin: 0;
+                line-height: 30px;
+            }
+
+            p {
+                font-size: $paragraphFont;
+                line-height: 30px;
+                margin: 0;
+            }
+        }
+
+        button {
+            width: 184px;
+            height: 45px;
+            border-radius: 22.5px;
+            background-color: #f26002;
+            margin-bottom: 60px;
+            margin-left: 68px;
+            margin-right: 68px;
+
+            a {
+                font-size: 20px;
+                color: white;
+                text-align: center;
+                text-decoration: $linkDeco;
+            }
         }
     }
 }

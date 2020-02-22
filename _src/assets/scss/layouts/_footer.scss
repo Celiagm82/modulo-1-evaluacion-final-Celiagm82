@@ -1,0 +1,69 @@
+.footer-page {
+    background-color: $footerColor;
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .footer-button {
+            background: url(../images/ico-arrow.svg) no-repeat center;
+            background-color: white;
+            width: 45px;
+            height: 45px;
+            border-radius: 45px;
+            transform: translateY(-50%);
+        }
+        .footer-menu {
+        
+            ul {
+                padding: 0;
+                text-align: center;
+            }
+
+            li {
+                list-style: $listDeco;
+            }
+            a {
+                text-decoration: $linkDeco;
+                color: white;
+                text-transform: uppercase;
+                font-size: 16px;
+                line-height: 30px;
+            }    
+        }
+        
+        .footer-social {
+            padding-bottom: 30px;
+            ul {
+                padding: 0;
+                text-align: center;
+            }
+
+            li {
+                list-style: $listDeco;
+            }
+            a {
+                text-decoration: $linkDeco;
+                color: white;
+                text-transform: uppercase;
+                font-size: 16px;
+                line-height: 30px;
+            }
+        }
+
+        .footer-copy {
+            text-align: center;
+            color: white;
+            font-size: 14px;
+            padding-bottom: 45px;
+
+            i {
+                color: $buttonColor;
+                text-align: center;
+            }
+            
+        }
+    }
+}
