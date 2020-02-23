@@ -1,11 +1,12 @@
 .footer-page {
     background-color: $footerColor;
 
-    .footer-container {
+    .btn-container {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        transform: translateY(-50%);
 
         .footer-button {
             background: url(../images/ico-arrow.svg) no-repeat center;
@@ -13,57 +14,111 @@
             width: 45px;
             height: 45px;
             border-radius: 45px;
-            transform: translateY(-50%);
+            
         }
-        .footer-menu {
-        
-            ul {
-                padding: 0;
-                text-align: center;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
+        @media all and (min-width:768px) {
+            display: flex;
+            flex-direction: row-reverse;
+        }
+
+        .links-container {
+
+            @media all and (min-width:768px) {
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: initial;
+                
             }
 
-            li {
-                list-style: $listDeco;
-            }
-            a {
-                text-decoration: $linkDeco;
-                color: white;
-                text-transform: uppercase;
-                font-size: 16px;
-                line-height: 30px;
-            }    
-        }
-        
-        .footer-social {
-            padding-bottom: 30px;
-            ul {
-                padding: 0;
-                text-align: center;
-            }
+            .footer-menu {
+                padding-bottom: 30px;
+                
+                ul {
+                    padding: 0;
+                    margin-bottom: 0;
+                    text-align: center;
 
-            li {
-                list-style: $listDeco;
+                    @media all and (min-width:768px) {
+                        text-align: left;
+                    }    
+                }
+
+                li {
+                    list-style: $listDeco;
+                }
+                a {
+                    text-decoration: $linkDeco;
+                    color: white;
+                    text-transform: uppercase;
+                    font-size: 16px;
+                    line-height: 30px;
+                }
             }
-            a {
-                text-decoration: $linkDeco;
-                color: white;
-                text-transform: uppercase;
-                font-size: 16px;
-                line-height: 30px;
+            
+            .footer-social {
+                padding-bottom: 30px;
+                ul {
+                    padding: 0;
+                    text-align: center;
+
+                    @media all and (min-width:768px) {
+                        text-align: left;
+                    } 
+                }
+
+                li {
+                    list-style: $listDeco;
+                }
+                a {
+                    text-decoration: $linkDeco;
+                    color: white;
+                    text-transform: uppercase;
+                    font-size: 16px;
+                    line-height: 30px;
+                }
             }
         }
 
         .footer-copy {
             text-align: center;
+            justify-content: center;
             color: white;
             font-size: 14px;
             padding-bottom: 45px;
 
+            @media all and (min-width:768px) {
+                width: 30%;
+                justify-content: left;
+                text-align: left;
+                padding-bottom: 110px;
+            }
+            .copy {
+                @media all and (min-width:768px) {
+                    margin: 0;
+                } 
+            }
+
+            .love {
+                @media all and (min-width:768px) {
+                    margin: 0;
+                    padding: 5px;
+                }
+            }
             i {
                 color: $buttonColor;
-                text-align: center;
-            }
-            
+                text-align: center
+            }      
         }
     }
 }
