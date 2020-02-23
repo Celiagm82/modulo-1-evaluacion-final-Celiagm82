@@ -42,12 +42,22 @@
                 border-radius: 22.5px;
                 background-color: $buttonColor;
                 margin-bottom: 38px;
-                
+                border-color: transparent;
+                outline: none;
+
                 a {
                     font-size: 20px;
                     color: white;
                     text-align: center;
                     text-decoration: $linkDeco;
+                }
+            }
+                
+            button:hover {
+                background-color: $footerColor;
+
+                a {
+                    color: $buttonColor;
                 }
             }
         }

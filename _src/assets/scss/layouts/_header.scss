@@ -47,11 +47,12 @@
         }
         
         .header-button {
-            background: url(../images/ico-scroll-down.svg) no-repeat center;
             background-color: white;
             width: 45px;
             height: 45px;
             border-radius: 45px;
+            border-color: transparent;
+            outline: none;
             margin: 45px;
         }
 

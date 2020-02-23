@@ -9,11 +9,12 @@
         transform: translateY(-50%);
 
         .footer-button {
-            background: url(../images/ico-arrow.svg) no-repeat center;
             background-color: white;
             width: 45px;
             height: 45px;
-            border-radius: 45px;    
+            border-radius: 45px;
+            border-color: transparent;
+            outline: none;
         }
     }
 
