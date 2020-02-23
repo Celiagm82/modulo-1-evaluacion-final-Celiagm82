@@ -4,7 +4,7 @@
     padding-bottom: 45px;
 
     small {
-        color: #8ccbea;
+        color: $smallColor;
     }
     
     h2 {
@@ -25,17 +25,58 @@
         width: 76px;
         height: 45px;
         border-radius: 22.5px;
-        border: solid 2px #f26002;
+        border: solid 2px $buttonColor;
         background: white;
 
-        @media all and (min-width:768px) {
-            width: 91px;
-        }
-        
         a {
-            color: #f26002;
+            color: $buttonColor;
             text-decoration: none;
             font-size: 20px;
+        }
+    }
+
+    @media all and (min-width:$tablet) {
+        padding-bottom: 60px;
+
+        h2 {
+            font-size: 26px;
+            line-height: 45px;
+        }
+
+        p {
+            font-size: 20px;
+            line-height: 30px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+
+        button {
+            width: 91px;
+        }
+    }
+
+    @media all and (min-width:$pc) {
+        padding-top: 60px;
+        margin-left: 275px;
+        margin-right: 275px;
+
+        small {
+            font-size: 16px;
+        }
+
+        h2 {
+            font-size: 32px;
+            line-height: 45px;
+            margin: 0;
+            padding: 5px;
+        }
+
+        p {
+            margin: 0;
+        }
+
+        button {
+            width: 160px;
         }
     }
 }

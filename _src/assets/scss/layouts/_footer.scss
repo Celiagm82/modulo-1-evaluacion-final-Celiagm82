@@ -13,8 +13,7 @@
             background-color: white;
             width: 45px;
             height: 45px;
-            border-radius: 45px;
-            
+            border-radius: 45px;    
         }
     }
 
@@ -24,22 +23,7 @@
         justify-content: center;
         align-items: center;
 
-
-        @media all and (min-width:768px) {
-            display: flex;
-            flex-direction: row-reverse;
-        }
-
         .links-container {
-
-            @media all and (min-width:768px) {
-                width: 100%;
-                display: flex;
-                flex-direction: row;
-                justify-content: space-around;
-                align-items: initial;
-                
-            }
 
             .footer-menu {
                 padding-bottom: 30px;
@@ -47,16 +31,13 @@
                 ul {
                     padding: 0;
                     margin-bottom: 0;
-                    text-align: center;
-
-                    @media all and (min-width:768px) {
-                        text-align: left;
-                    }    
+                    text-align: center;   
                 }
 
                 li {
                     list-style: $listDeco;
                 }
+
                 a {
                     text-decoration: $linkDeco;
                     color: white;
@@ -68,18 +49,16 @@
             
             .footer-social {
                 padding-bottom: 30px;
+                
                 ul {
                     padding: 0;
                     text-align: center;
-
-                    @media all and (min-width:768px) {
-                        text-align: left;
-                    } 
                 }
 
                 li {
                     list-style: $listDeco;
                 }
+                
                 a {
                     text-decoration: $linkDeco;
                     color: white;
@@ -97,28 +76,61 @@
             font-size: 14px;
             padding-bottom: 45px;
 
-            @media all and (min-width:768px) {
+            .love {
+            
+                i {
+                    color: $buttonColor;
+                    text-align: center
+                }
+            }         
+        }
+
+        @media all and (min-width:$tablet) {
+            display: flex;
+            flex-direction: row-reverse;
+
+            .links-container {
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                align-items: initial;
+
+                .footer-menu {
+                    
+                    ul {
+                        text-align: left;
+                    }
+                }
+
+                .footer-social {
+                    
+                    ul {
+                        text-align: left;
+                    }
+                }
+            }
+
+            .footer-copy {
                 width: 30%;
                 justify-content: left;
                 text-align: left;
                 padding-bottom: 110px;
-            }
-            .copy {
-                @media all and (min-width:768px) {
-                    margin: 0;
-                } 
-            }
 
-            .love {
-                @media all and (min-width:768px) {
+                .copy {
+                    margin: 0;
+                }
+
+                .love {
                     margin: 0;
                     padding: 5px;
                 }
             }
-            i {
-                color: $buttonColor;
-                text-align: center
-            }      
+        }
+    
+        @media all and (min-width:$pc) {
+            margin-left: 275px;
+            margin-right: 275px;
         }
     }
 }

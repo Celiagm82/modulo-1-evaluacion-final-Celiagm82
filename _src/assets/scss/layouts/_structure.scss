@@ -1,14 +1,17 @@
 body {
     font-family: 'Roboto Slab', ;
     box-sizing: border-box;
-
+    
     .container {
         max-width: 768px;
         margin: 0px 15px;
 
-        @media all and (min-width:768px) {
-            max-width: 1220px;
+        @media all and (min-width:$tablet) {
+            max-width: 1280px;
             margin: 0 39px;
+        }
+        @media all and (min-width:$pc) {
+            width: 100%;
         }
     }
 }
