@@ -11,8 +11,8 @@
         padding-bottom: 45px;
 
         p {
-            font-size: 18px;
-            line-height: 30px;
+            font-size: 1.12rem;
+            line-height: 1.87rem;
             padding: 10px;
         }
 
@@ -26,7 +26,8 @@
             outline: none;
     
             a {
-                font-size: 20px;
+                font-size: 1.25rem;
+                padding: 10px;
                 color: white;
                 text-align: center;
                 text-decoration: $linkDeco;
@@ -47,7 +48,7 @@
             .section-container {
 
                 p {
-                    font-size: 20px;
+                    font-size: 1.25rem;
                 }
             }
         }

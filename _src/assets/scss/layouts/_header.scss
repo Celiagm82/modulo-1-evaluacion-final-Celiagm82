@@ -29,18 +29,18 @@
         align-items: center;
 
         h1 {
-            font-size: 42px;
+            font-size: 2.6rem;
             font-weight: bold;
             text-transform: uppercase;
             color: white;
-            line-height: 55px;
+            line-height: 3.43rem;
             text-align: center;
             margin: 0;
             padding-bottom: 10px;
         }
         
         p {
-            font-size: 16px;
+            font-size: 1rem;
             color: white;
             text-align: center;
             margin: 0;
@@ -59,12 +59,12 @@
         @media all and (min-width:$tablet) {
            
             h1 {
-                font-size: 80px;
-                line-height: 106px;
+                font-size: 5rem;
+                line-height: 6.62rem;
             }
             
             p {
-                font-size: 24px;
+                font-size: 1.5rem;
             }
         }
         @media all and (min-width:$pc) {
@@ -72,8 +72,8 @@
             margin-right: 275px;
 
             h1 {
-                font-size: 100px;
-                line-height: 130px;
+                font-size: 6.25rem;
+                line-height: 8.12rem;
             }
             .header-button {
                 margin-bottom: 13px;

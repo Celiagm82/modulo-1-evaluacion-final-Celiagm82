@@ -8,16 +8,16 @@
     }
     
     h2 {
-        font-size: 24px;
+        font-size: 1.5rem;
         font-weight: bold;
-        line-height: 30px;
+        line-height: 1.87rem;
         padding-bottom: 15px;
         padding-right: 15px;
     }
 
     p {
-        font-size: 18px;
-        line-height: 30px;
+        font-size: 1.12rem;
+        line-height: 1.87rem;
         padding-bottom: 30px;
     }
 
@@ -33,7 +33,8 @@
         a {
             color: $buttonColor;
             text-decoration: none;
-            font-size: 20px;
+            font-size: 1.25rem;
+            padding: 10px;
         }
     }
     button:hover {
@@ -51,14 +52,14 @@
         padding-bottom: 60px;
 
         h2 {
-            font-size: 26px;
-            line-height: 45px;
+            font-size: 1.62rem;
+            line-height:2.81rem;
         }
 
         p {
-            font-size: 20px;
+            font-size: 1.25rem;
             line-height: 30px;
-            padding-top: 30px;
+            padding-top: 1.87rem;
             padding-bottom: 30px;
         }
 
@@ -73,12 +74,12 @@
         margin-right: 275px;
 
         small {
-            font-size: 16px;
+            font-size: 1rem;
         }
 
         h2 {
-            font-size: 32px;
-            line-height: 45px;
+            font-size: 2rem;
+            line-height: 2.81rem;
             margin: 0;
             padding: 5px;
         }
