@@ -15,6 +15,21 @@
             border-radius: 45px;
             border-color: transparent;
             outline: none;
+            animation-duration: 3s;
+            animation-name: intro;
+            animation-iteration-count: 1;
+            animation-timing-function: linear;
+        }
+
+        @keyframes intro {
+            from {
+                transform: scale(3) rotate(-360deg);
+                opacity: 0;
+              }
+            
+            to {
+                transform: scale(1);
+            }
         }
     }
 

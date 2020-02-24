@@ -55,6 +55,7 @@
                 
             button:hover {
                 background-color: $footerColor;
+                transition: background-color ease 1s;
 
                 a {
                     color: $buttonColor;

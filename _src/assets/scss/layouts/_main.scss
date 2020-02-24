@@ -40,12 +40,13 @@
         background: $buttonColor;
         border-radius: 25px;
         width: 90px;
+        transition: width ease 1s;
 
         a {
             color: white;
         }
     }
-
+    
     @media all and (min-width:$tablet) {
         padding-bottom: 60px;
 
