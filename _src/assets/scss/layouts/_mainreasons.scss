@@ -1,0 +1,62 @@
+.section-page {
+    background-color: $asideColor;
+
+    .section-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 45px;
+
+        p {
+            font-size: 18px;
+            line-height: 30px;
+            padding: 10px;
+        }
+
+        button {
+            width: 184px;
+            height: 45px;
+            border-radius: 22.5px;
+            background-color: $buttonColor;
+            margin-bottom: 38px;
+            border-color: transparent;
+            outline: none;
+    
+            a {
+                font-size: 20px;
+                color: white;
+                text-align: center;
+                text-decoration: $linkDeco;
+            }
+        }
+            
+        button:hover {
+            background-color: $smallColor;
+            transition: background-color ease 1s;
+
+            a {
+                color: $buttonColor;
+            }
+        }
+
+        @media all and (min-width:$tablet) {
+
+            .section-container {
+
+                p {
+                    font-size: 20px;
+                }
+            }
+        }
+
+        @media all and (min-width:$pc) {
+            padding-top: 60px;
+            padding-bottom: 60px;
+            margin-left: 275px;
+            margin-right: 275px;
+        }
+    }
+}

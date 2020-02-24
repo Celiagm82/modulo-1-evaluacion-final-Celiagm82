@@ -1,13 +1,11 @@
 @import 'base/reset';
+
 @import 'utils/variables';
 @import 'layouts/structure';
+
 @import 'layouts/header';
 @import 'layouts/main';
 @import 'layouts/aside';
 @import 'layouts/footer';
 
-// body {
-// 	background: url('../images/logo-adalab-80px.png') center center no-repeat $color-white;
-// 	margin: 0;
-// 	height: 100vh;
-// }
+@import 'layouts/mainreasons';
